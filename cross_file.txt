@@ -1,13 +1,13 @@
 [binaries]
-c = 'aarch64-linux-gnu-gcc'
-cpp = 'aarch64-linux-gnu-g++'
-ar = 'aarch64-linux-gnu-gcc-ar'
-strip = 'aarch64-linux-gnu-strip'
+c = 'riscv64-linux-gnu-gcc'
+cpp = 'riscv64-linux-gnu-g++'
+ar = 'riscv64-linux-gnu-gcc-ar'
+strip = 'riscv64-linux-gnu-strip'
 
 [host_machine]
 system = 'linux'
-cpu_family = 'arm64'
-cpu = 'armv8'
+cpu_family = 'riscv64'
+cpu = 'riscv64'
 endian = 'little'
 
 [build_machine]
